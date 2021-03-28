@@ -1,0 +1,92 @@
+.btn1,
+.btn2 {
+  width: 100%;
+}
+h1 {
+  align-items: center;
+  text-align: center;
+}
+.main-div {
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  background-color: aqua;
+}
+/* button {
+  position: fixed;
+} */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(59, 26, 26, 1);
+  max-width: 400px;
+  border-radius: 10%;
+  margin: auto;
+  margin-top: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: arial;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+.para {
+  font-size: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  padding-top: 40px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  position: relative;
+  border-radius: 50%;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #0000;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#sp {
+  color: black;
+  font-size: 0.9rem;
+}
+body {
+  background-color: #ffffff;
+}
+
+.text {
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
