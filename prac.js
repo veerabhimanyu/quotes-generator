@@ -50,13 +50,13 @@ const button = document.querySelector(".btn");
 const paragraph = document.querySelector(".para");
 const cards = document.querySelector(".card");
 button.addEventListener("click", quotes);
-console.log(color.length);
+
 function quotes() {
   var i = Math.floor(Math.random() * 30 + 1);
   paragraph.innerHTML =
     '<sup> <i class="fa fa-quote-left" aria-hidden="true"></i></sup>' +
     array[i];
   var j = Math.floor(Math.random() * 10 + 1);
-  console.log(j);
+  
   document.body.style.backgroundColor = color[j];
 }
